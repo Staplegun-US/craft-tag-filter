@@ -7,7 +7,7 @@ their values in a twig array:
 
 ```
 {% for paragraph in entry.body | getTag('p') %}
-  {{ p }}
+  {{ paragraph }}
 {% endfor %}
 ```
 
